@@ -5,7 +5,7 @@ export default function Menu(){
 
     return(
         <nav>
-            <Link to='/'><img src={logo}></img></Link>                        
+            <Link to='/'><img src={logo} id='logo' /></Link>                        
             <Link to='/seguro'>Seguro</Link>
             <span> | </span>
             <Link to='/duvidas'>Dúvidas</Link>

@@ -11,7 +11,7 @@ export default function Seguro(){
     return(
         <main>
         <div class="container">
-            <img src={fundo} id='fundo2'/>
+            <img src={fundo} id='fundo'/>
             <div class="overlay">
                 <h1>Quem tem Porto, tem <br />mais tranquilidade <br />para pedalar</h1><br />
                 <div class="container2">

@@ -4,7 +4,7 @@ export default function Rodape(){
 
     return(
         <footer>
-            <img src={logo} alt="" />
+            <img src={logo} id='logo' alt="" />
         </footer>
     )
 }
