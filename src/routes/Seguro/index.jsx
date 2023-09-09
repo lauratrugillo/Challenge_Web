@@ -4,6 +4,7 @@ import exclamacao_icon from '../../img/exclamacao_icon.png'
 import acidente_icon from '../../img/acidente_icon.png'
 import bicicleta_icon from '../../img/bicicleta_icon.png'
 import grupo_icon from '../../img/grupo_icon.png'
+import { Link } from "react-router-dom"
 
 export default function Seguro(){
 
@@ -20,7 +21,7 @@ export default function Seguro(){
                 <p>Mais do que um seguro para bicicleta, uma solução <br />
                 completa que oferece proteção e serviços para você <br />
                 se aventurar sem medo.</p><br />
-                <button>Faça uma cotação</button>
+                <button><Link to='/seguro/cadastro'>Faça uma cotação</Link></button>
             </div>
         </div>
         <br />

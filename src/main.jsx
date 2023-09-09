@@ -35,17 +35,13 @@ const router = createBrowserRouter([
         element: <Seguro/>
       },
       {
-        path: '/cadastro',
+        path: '/seguro/cadastro',
         element: <Cadastro/>
       },
       
       {
-        path: '/cadastro/vistoria/:id',
+        path: '/seguro/cadastro/vistoria/:id',
         element: <Vistoria/>
-      },
-      {
-        path: '/antiga',
-        element: <Navigate to='/'/>
       }
     ]
   }

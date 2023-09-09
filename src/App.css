@@ -16,6 +16,8 @@ nav {
   height: 10vb;
   background-color: #0146C0;
   color: white;
+  z-index: 1000;
+  top: 0;
 
   & a {
     color: white;
@@ -30,7 +32,7 @@ main {
   justify-content: top;
   align-items: left;
   width: 100vw;
-  min-height: 85vh;
+  min-height: 83vh;
   height: 100%;
 }
 
@@ -39,14 +41,14 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 5vh;
-  background-color: #262627;
+  height: 7vh;
+  background-color: #101010;
   color: white;
   font-weight: bold;
 }
 
 img {
-  height: 100px;
+    height: auto;
     width: 140px;
 }
 
@@ -68,6 +70,10 @@ img {
   transform: translate(-50%, -50%);
   padding: 20px;
   text-align: justify;
+}
+
+.overlay p {
+  font-weight: bold;
 }
 
 #check {
@@ -108,6 +114,8 @@ img {
   box-sizing: border-box;
   text-align: center;
   border: 1px solid #ddd;
+  background-color: #EEEEEB;
+  border-radius: 6%;
 }
 
 .card img {
