@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 nav {
   display: flex;
   width: 100vw;
@@ -87,4 +91,26 @@ img {
 
 .container3 p {
   font-size: large;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.card {
+  flex: 1;
+  max-width: 25%;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
 }
