@@ -21,7 +21,7 @@ export default function Seguro(){
                 <p>Mais do que um seguro para bicicleta, uma solução <br />
                 completa que oferece proteção e serviços para você <br />
                 se aventurar sem medo.</p><br />
-                <button><Link to='/seguro/cadastro'>Faça uma cotação</Link></button>
+                <Link to='/seguro/cadastro'><button>Faça uma cotação</button></Link>
             </div>
         </div>
         <br />
