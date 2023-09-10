@@ -27,7 +27,7 @@ export default function Seguro(){
         <br />
 
         <div class='container3'>
-            <h2>Com o Porto Seguro Bike, você escolhe as <br />coberturas de acordo com as suas <br />necessidades.</h2>
+            <h2>Com o Porto Seguro Bike, você escolhe <br />as coberturas de acordo com as suas <br />necessidades.</h2>
             <br />
             <p>São diversas coberturas para você <br />
             só se preocupar em pedalar:</p>
