@@ -270,5 +270,84 @@ img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1180px){
+  main {
+    min-height: 87vh;
+  }
 
+  body {
+    overflow-x: hidden;
+  }
+
+  img {
+    width: 100%;
+    height: 360px; 
+  }
+
+  #fundo {
+    display: none;
+  }
+
+  .overlay {
+    position: relative; /* Altera a posição para relativa */
+    top: 0;
+    left: 0;
+    transform: none; /* Remove a transformação */
+    padding: 30px; /* Reduz o espaço ao redor do conteúdo */
+    text-align: justify; /* Centraliza o texto */
+    background-image: url('img/plano_fundo_2.png');
+    background-position: 67% 6%;
+  }
+
+  .overlay h1 {
+    font-size: 2rem;
+  }
+
+  .container2 {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #check {
+    width: 50px;
+    height: 45px;
+}
+
+  .container2 h2 {
+    font-size: 1rem; 
+    margin-top: 10px;
+  }
+
+  .overlay p {
+    display: none;
+  }
+
+  /* Ajuste o tamanho do botão */
+  .overlay button {
+    font-size: 1rem; /* Reduz o tamanho da fonte */
+    padding: 10px 20px; /* Adiciona espaço ao redor do botão */
+  }
+
+  .card-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin: 30px 8% 30px 8%;
+  }
+
+  .card {
+    max-width: 90%;
+    font-size: x-small;
+  }
+
+  .container3 h1 {
+    font-size: 2em;
+  }
+
+  .container3 h2{
+    font-size: larger;
+  }
+
+  .container3 p {
+    font-size: medium;
+  }
 }
