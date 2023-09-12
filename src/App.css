@@ -174,6 +174,21 @@ img {
   display: none;
 }
 
+.container4 {
+  padding-left: 8%;
+  padding-top: 2%;
+}
+
+.container4 h1 {
+  font-size: 2em;
+  padding-bottom: 1%;
+}
+
+.container4 ul {
+  padding-top: 1%;
+  padding-left: 4%;
+}
+
 
 /* Estilos para telas menores */
 @media screen and (max-width: 768px) {
