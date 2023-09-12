@@ -40,7 +40,7 @@ const router = createBrowserRouter([
       },
       
       {
-        path: '/seguro/cadastro/vistoria/:id',
+        path: '/seguro/cadastro/vistoria',
         element: <Vistoria/>
       }
     ]

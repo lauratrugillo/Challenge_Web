@@ -19,15 +19,14 @@ const Carousel = () => {
     <div>
       <Slider {...settings}>
         <div>
-          <img src={img1} alt="Imagem 1" />
+          <img src={img1} alt="Imagem 1" id='banner' />
         </div>
         <div>
-          <img src={img3} alt="Imagem 2" />
+          <img src={img3} alt="Imagem 2" id='banner' />
         </div>
         <div>
-          <img src={img2} alt="Imagem 3" />
+          <img src={img2} alt="Imagem 3" id='banner' />
         </div>
-        {/* Adicione mais slides conforme necessário */}
       </Slider>
     </div>
   );

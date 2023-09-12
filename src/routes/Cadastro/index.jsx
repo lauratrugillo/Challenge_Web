@@ -1,29 +1,38 @@
+import telefone from '../../img/telefone.png'
+
 export default function Cadastro(){
 
     return(
         <main>
-            <h1>Cadastro</h1>
+            <div class='container4'>
 
-            <h3>Ligamos para você</h3>
-            <h4>Sua Bicicleta</h4>
+                <div class='container2'>
+                <img src={telefone} alt="" id='telefone' /><h1>Ligamos para você</h1>
+                </div>
 
-            <form action="#" method="POST">
-            
-                <input type="text" id="valorBicicleta" name="valorBicicleta" placeholder="Qual o valor da sua bicicleta?" required ><br><br>
-            
-                <input type="text" id="nome" name="nome" placeholder="Nome" required><br><br>
 
-                <input type="text" id="email" name="email" placeholder="E-mail" required><br><br>
+                <form action="/seguro/cadastro/vistoria" onSubmit={e => e.preventDefault}>
+                
+                <h2>Sua bicicleta</h2>
+                <br />
+                
+                    <input type="text" id="valorBicicleta" name="valorBicicleta" placeholder="Qual o valor da sua bicicleta?" required /><br /><br />
+                
+                    <input type="text" id="nome" name="nome" placeholder="Nome" required /><br /><br />
 
-                <input type="text" id="telefone" name="telefone" placeholder="Telefone para contato" required><br><br>
+                    <input type="text" id="email" name="email" placeholder="E-mail" required /><br /><br />
 
-                <input type="text" id="cpf" name="cpf" placeholder="CPF" required><br><br>
+                    <input type="text" id="telefone" name="telefone" placeholder="Telefone para contato" required /><br /><br />
 
-                <input type="text" id="cep" name="cep" placeholder="CEP" required><br><br>
+                    <input type="text" id="cpf" name="cpf" placeholder="CPF" required /><br /><br />
 
-                <button type="submit">Continuar</button>
+                    <input type="text" id="cep" name="cep" placeholder="CEP" required /><br /><br />
 
-            </form>
+                    <button type="submit">Continuar</button>
+
+
+                </form>
+            </div>
         </main>
     )
 }
